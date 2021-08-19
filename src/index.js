@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from "react-router-app"
+import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import Contact from './Contact';
 
 ReactDOM.render(
   <BrowserRouter>
-  <App/>
+     
+     <App/>
   </BrowserRouter>,
   
   document.getElementById('root')
